@@ -1,0 +1,179 @@
+* {
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  /* background-color: aqua; */
+}
+
+.banner {
+  height: 33%;
+  width: 100%;
+  background-position: center;
+  background-size: 100% 100%;
+  /* background: no-repeat; */
+  background-image: url("/images/landing.jpg");
+}
+
+.navBar {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(252, 252, 254);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 90%;
+ 
+  margin-left: 50px;
+}
+.nav {
+  margin-right: 50px;
+}
+
+.items {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+  font-size: larger;
+}
+.textBaner {
+  /* background-color: blueviolet; */
+  color: white;
+  text-align: center;
+  margin:100px;
+  /* font-size: larger; */
+}
+.title {
+  /* background-color: aqua; */
+  margin-bottom: 10px;
+  font-size: 45px;
+}
+
+.content {
+  /* background-color: rgb(43, 226, 73); */
+  font-size: 24px;
+}
+
+.banner2{
+    
+    /* background-color: rgb(234, 10, 10); */
+    width: 100%;
+    height: 33%;
+    
+}
+
+.subTitle{
+text-align: center;
+margin: 40px 600px 20px;
+/* background-color: aqua; */
+font-size: 30px;
+/* text-decoration: underline ; */
+border-bottom: 5px solid #4ea14e ;
+
+padding: 10px 0px;
+}
+
+.container{
+    /* background-color: rgb(161, 59, 149); */
+
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding-bottom: 50px;
+}
+
+.caracteritics{
+    /* background-color: blue; */
+width: 20%;
+height: 100%;
+
+text-align: center;
+
+}
+
+.imgCarac{
+height: 80px;
+
+
+}
+.titleCarac{
+    font-size: 25px;
+color: #4ea14e;
+padding-bottom: 25px;
+}
+
+.pCarac{
+    font-size: 15px;
+}
+.banner3{
+    display: flex;
+    flex-direction: row;
+background-color: #4ea14e;
+/* width: 100%; */
+height: 33%;
+margin: 0px 20px;
+}
+
+.imgLoguito{position: absolute;
+margin: 16% 46%;
+    height: 80px;
+/* background-color: blue; */
+
+}
+
+
+
+
+
+.left{display: flex;
+    flex-direction: column;
+    /* background-color: rgb(149, 172, 16); */
+width: 50%;
+height: 500px;
+margin: 40px;
+color: white;
+justify-content: space-evenly;
+}
+
+.titleBanner3{
+    text-align: left;
+
+margin-right: 150px ;
+
+/* background-color: aqua; */
+font-size: 30px;
+border-bottom: 5px solid #ffffff ;
+
+}
+
+.subTitleBanner3{
+    font-size: 25px;
+}
+
+.pBanner3{
+    font-size: 15px;
+}
+
+
+
+
+
+.raight{
+   position: absolute;
+    background-image: url(/images/spotify-app.jpg);
+    background-position: right;
+    background-size: 100% 100%;
+  
+width: 300px;
+height: 460px;
+margin: 5%;
+margin-left: 65% ;
+}
