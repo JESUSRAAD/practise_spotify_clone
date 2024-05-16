@@ -11,7 +11,10 @@ body {
 }
 
 .banner {
-  height: 33%;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  height: 700px;
   width: 100%;
   background-position: center;
   background-size: 100% 100%;
@@ -20,8 +23,9 @@ body {
 }
 
 .navBar {
+  position: fixed;
   width: 100%;
-  height: 50px;
+  height: 80px;
   background-color: rgb(252, 252, 254);
   display: flex;
   justify-content: space-between;
@@ -29,9 +33,9 @@ body {
 }
 
 .logo {
-  height: 90%;
- 
-  margin-left: 50px;
+  height: 80%;
+
+  margin-left: 60px;
 }
 .nav {
   margin-right: 50px;
@@ -44,11 +48,10 @@ body {
   font-size: larger;
 }
 .textBaner {
+  margin: 20%;
   /* background-color: blueviolet; */
   color: white;
-  text-align: center;
-  margin:100px;
-  /* font-size: larger; */
+  /* text-align: center; */
 }
 .title {
   /* background-color: aqua; */
@@ -61,128 +64,126 @@ body {
   font-size: 24px;
 }
 
-.banner2{
-    
-    /* background-color: rgb(234, 10, 10); */
-    width: 100%;
-    height: 33%;
-    
+.banner2 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  /* background-color: rgb(234, 10, 10); */
+  width: 100%;
+  height: 10%;
 }
 
-.subTitle{
-text-align: center;
-margin: 40px 600px 20px;
-/* background-color: aqua; */
-font-size: 30px;
-/* text-decoration: underline ; */
-border-bottom: 4px solid #4ea14e ;
-
-padding: 10px 0px;
+.sb {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  /* background-color: black; */
+}
+.subTitle {
+  text-align: center;
+  margin: 40px 0px 20px;
+  width: 22%;
+  /* background-color: aqua; */
+  font-size: 30px;
+  border-bottom: 4px solid #4ea14e;
 }
 
-.container{
-    /* background-color: rgb(161, 59, 149); */
-padding-top:70px ;
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    padding-bottom: 50px;
+.container {
+  /* background-color: rgb(161, 59, 149); */
+  padding-top: 70px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-bottom: 50px;
 }
 
-.caracteritics{
-    /* background-color: blue; */
-width: 20%;
-height: 100%;
+.caracteritics {
+  /* background-color: blue; */
+  width: 20%;
+  height: 100%;
 
-text-align: center;
-
+  text-align: center;
 }
 
-.imgCarac{
-height: 80px;
-
-
+.imgCarac {
+  height: 80px;
 }
-.titleCarac{
-    font-size: 25px;
-color: #4ea14e;
-padding-bottom: 25px;
+.titleCarac {
+  font-size: 25px;
+  color: #4ea14e;
+  padding-bottom: 25px;
 }
 
-.pCarac{
-    font-size: 15px;
+.pCarac {
+  font-size: 15px;
 }
-.banner3{
-    display: flex;
-    flex-direction: row;
-background-color: #4ea14e;
-/* width: 100%; */
-height: 33%;
-margin: 0px 20px;
-}
-
-.imgLoguito{position: absolute;
-margin: 16% 46%;
-    height: 100px;
-/* background-color: blue; */
-
+.banner3 {
+  display: flex;
+  flex-direction: row;
+  background-color: #4ea14e;
+  width: 100%;
+  height: 45%;
+  margin: 0px 40px;
 }
 
+.imgLoguito {
+  position: absolute;
+  margin: 16% 46%;
+  height: 100px;
+  /* background-color: blue; */
+}
 
-
-
-
-.left{display: flex;
+.left {
+  display: flex;
   /* background-color: rgb(238, 255, 0); */
-    flex-direction: column;
-width: 50%;
-height: 300px;
-margin: 80px ;
-color: white;
-justify-content: space-between;
-padding: 20px;
+  flex-direction: column;
+  width: 50%;
+  height: 350px;
+  margin: 40px;
+  color: white;
+  /* justify-content: space-between; */
+  padding: 20px;
 }
-.tb3{display: flex;
-/* background-color: black; */
-width: 100%;
-height:15% ;
-padding-left: 0%;
-
-}
-
-
-.titleBanner3{
-
-/* background-color: aqua; */
-font-size: 30px;
-border-bottom: 4px solid #ffffff ;
-padding-right: 10px;
+.tb3 {
+  display: flex;
+  /* background-color: black; */
+  width: 100%;
+  height: 15%;
+  padding-left: 0%;
+  padding-bottom: 20px;
 }
 
-.subTitleBanner3{
-    font-size: 25px;
-    /* background-color: blue; */
+.titleBanner3 {
+  /* background-color: aqua; */
+  font-size: 30px;
+  border-bottom: 4px solid #ffffff;
+  padding-right: 10px;
 }
 
-.pBanner3{
+.subTitleBanner3 {
+  font-size: 25px;
+  /* background-color: blue; */
+  height: 30%;
+}
+
+.pBanner3 {
   /* background-color: chocolate; */
-    font-size: 15px;
-    
+  font-size: 15px;
+  height: 50%;
 }
 
+.raight {
+  display: flex;
+  /* background-color: darkgoldenrod; */
 
+  width: 50%;
+  height: 350px;
+  margin: 80px;
 
-
-
-.raight{
-   position: absolute;
-    background-image: url(/images/spotify-app.jpg);
-    background-position: right;
-    background-size: 100% 100%;
-  
-width: 270px;
-height: 390px;
-margin: 5%;
-margin-left: 65% ;
+  justify-content: center;
+}
+.spotifyApp {
+  height: 100%;
+  width: 45%;
 }
