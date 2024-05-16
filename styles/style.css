@@ -75,7 +75,7 @@ margin: 40px 600px 20px;
 /* background-color: aqua; */
 font-size: 30px;
 /* text-decoration: underline ; */
-border-bottom: 5px solid #4ea14e ;
+border-bottom: 4px solid #4ea14e ;
 
 padding: 10px 0px;
 }
@@ -134,31 +134,41 @@ margin: 16% 46%;
 
 
 .left{display: flex;
+  /* background-color: rgb(238, 255, 0); */
     flex-direction: column;
 width: 50%;
 height: 300px;
-margin: 90px ;
+margin: 80px ;
 color: white;
-justify-content: space-evenly;
+justify-content: space-between;
+padding: 20px;
+}
+.tb3{display: flex;
+/* background-color: black; */
+width: 100%;
+height:15% ;
+padding-left: 0%;
+
 }
 
-.titleBanner3{
-    text-align: left;
 
-margin-right: 150px ;
+.titleBanner3{
 
 /* background-color: aqua; */
 font-size: 30px;
-border-bottom: 5px solid #ffffff ;
-
+border-bottom: 4px solid #ffffff ;
+padding-right: 10px;
 }
 
 .subTitleBanner3{
     font-size: 25px;
+    /* background-color: blue; */
 }
 
 .pBanner3{
+  /* background-color: chocolate; */
     font-size: 15px;
+    
 }
 
 
@@ -171,7 +181,7 @@ border-bottom: 5px solid #ffffff ;
     background-position: right;
     background-size: 100% 100%;
   
-width: 230px;
+width: 270px;
 height: 390px;
 margin: 5%;
 margin-left: 65% ;
