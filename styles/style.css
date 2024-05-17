@@ -7,6 +7,8 @@ body {
   display: flex;
   width: 100%;
   flex-direction: column;
+  
+  align-items: center;
   /* background-color: aqua; */
 }
 
@@ -17,30 +19,34 @@ body {
   height: 700px;
   width: 100%;
   background-position: center;
-  background-size: 100% 100%;
-  /* background: no-repeat; */
+  background-size:cover;
+top: 40px;
   background-image: url("/images/landing.jpg");
 }
 
 .navBar {
   position: fixed;
   width: 100%;
-  height: 80px;
+  height: 40px;
   background-color: rgb(252, 252, 254);
   display: flex;
   justify-content: space-between;
   align-items: center;
+  
 }
 
 .logo {
   height: 80%;
-
-  margin-left: 60px;
+padding-left: 10px;
+  
 }
 .nav {
-  margin-right: 50px;
 }
+.navList{display: flex;
+  flex-direction: row;
+list-style: none;
 
+}
 .items {
   text-decoration: none;
   color: black;
@@ -71,18 +77,16 @@ body {
   /* background-color: rgb(234, 10, 10); */
   width: 100%;
   height: 10%;
+  align-items: center;
+  justify-content: center;
 }
 
-.sb {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  /* background-color: black; */
-}
+
+
 .subTitle {
   text-align: center;
   margin: 40px 0px 20px;
-  width: 22%;
+ 
   /* background-color: aqua; */
   font-size: 30px;
   border-bottom: 4px solid #4ea14e;
@@ -102,6 +106,7 @@ body {
   /* background-color: blue; */
   width: 20%;
   height: 100%;
+justify-content: center;
 
   text-align: center;
 }
@@ -119,18 +124,24 @@ body {
   font-size: 15px;
 }
 .banner3 {
-  display: flex;
-  flex-direction: row;
+ 
   background-color: #4ea14e;
-  width: 100%;
+ 
   height: 45%;
-  margin: 0px 40px;
+margin: 0px 20px;
+ 
 }
+.marginBanner{
+display: flex;
+margin: 30px 40px;
+align-items: center;
+justify-content: center;
+}
+
 
 .imgLoguito {
   position: absolute;
-  margin: 16% 46%;
-  height: 100px;
+ height: 100px;
   /* background-color: blue; */
 }
 
@@ -139,26 +150,19 @@ body {
   /* background-color: rgb(238, 255, 0); */
   flex-direction: column;
   width: 50%;
-  height: 350px;
-  margin: 40px;
+  height: 100%;
+  
   color: white;
-  /* justify-content: space-between; */
+  gap: 20px;
   padding: 20px;
 }
-.tb3 {
-  display: flex;
-  /* background-color: black; */
-  width: 100%;
-  height: 15%;
-  padding-left: 0%;
-  padding-bottom: 20px;
-}
+
 
 .titleBanner3 {
   /* background-color: aqua; */
   font-size: 30px;
   border-bottom: 4px solid #ffffff;
-  padding-right: 10px;
+   width: 80%;
 }
 
 .subTitleBanner3 {
@@ -171,6 +175,7 @@ body {
   /* background-color: chocolate; */
   font-size: 15px;
   height: 50%;
+  margin: 20px 40px;
 }
 
 .raight {
@@ -178,8 +183,8 @@ body {
   /* background-color: darkgoldenrod; */
 
   width: 50%;
-  height: 350px;
-  margin: 80px;
+  height: 100%;
+ 
 
   justify-content: center;
 }
